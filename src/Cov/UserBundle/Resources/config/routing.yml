@@ -1,0 +1,22 @@
+cov_user_homepage:
+    path:     /
+    defaults: { _controller: CovUserBundle:Default:index }
+
+cov_user_homepage_admin:
+    path:     /admin
+    defaults: { _controller: CovUserBundle:Default:admin }
+
+cov_listmembers_admin:
+    path:     /admin/listmembers
+    defaults: { _controller: CovUserBundle:Default:listmembers }
+
+cov_view_member_profile_admin:
+    path:     /admin/memberprofile
+    defaults: { _controller: CovUserBundle:Default:viewProfile }
+
+
+cov_listtem_admin:
+    path:     /admin/listtemoignage
+    defaults: { _controller: CovUserBundle:Default:listTemoignage }
+
+
